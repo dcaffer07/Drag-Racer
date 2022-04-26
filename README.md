@@ -12,6 +12,14 @@
 
 
 ## Planning - detailed description with images
+#### Purpose & Expectations
+> To work diligently in order to create a product that improves and expands our overall knowledge of how basic engineering operates.  We are expected to work professionally, using our time and resources wisely.  We are expected to work with our partners efficiently to create an object that operates under the parameters provided. With this we will create a device that incorporates all of the aspects of engineering we have learned about to scare and startle those who aren’t scared and startled enough in an effort to make the world a less scared-and-startle-free space.
+
+#### Description (establishing the foundation)
+#### Planning Document
+#### Initial Sketch (Ended up being VERY close to final)
+#### Reflection of Planning (done post project)
+
 ## Materials Used
 ## CAD Model - Link and Images
 ## Wiring Diagram (fritzing (Links to an external site.), tinkercad: circuits, or hand drawings)
