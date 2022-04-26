@@ -2,7 +2,7 @@
 
 
 ## Table of Contents 
-* [Planning Stage](https://github.com/dcaffer07/Drag-Racer/edit/main/README.md#planning---detailed-description-with-images) 
+* [Planning Stage](https://github.com/dcaffer07/Drag-Racer/blob/main/README.md#planning---detailed-description-with-images) 
 * [Materials Used](#cad-renderings)
 * [CAD Model](#base-construction)
 * [Wiring Diagram](#gear-construction) 
