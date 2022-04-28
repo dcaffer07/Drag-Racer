@@ -17,7 +17,11 @@
 
 #### Description (establishing the foundation)
 #### Planning Document
-#### Initial Sketch (Ended up being VERY close to final)
+[Here is the planning doc that was created pre-creation](https://docs.google.com/document/d/14ydlslu0jilWMhaa84WuWhr467ZRmgDgo2GTIVmntT8/edit#heading=h.ukbi0a75zb46)
+
+#### Initial Sketch
+<img src="https://github.com/dcaffer07/JackInTheBox/blob/main/media/jackInBox.png?raw=true" alt="wiring2" style="width:318px;">
+
 #### Reflection of Planning (done post project)
 
 ## Materials Used
