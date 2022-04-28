@@ -20,7 +20,7 @@
 [Here is the planning doc that was created pre-creation](https://docs.google.com/document/d/14ydlslu0jilWMhaa84WuWhr467ZRmgDgo2GTIVmntT8/edit#heading=h.ukbi0a75zb46)
 
 #### Initial Sketch
-<img src="https://github.com/dcaffer07/Drag-Racer/blob/main/dragrace.jpg?raw=true" alt="wiring2" style="width:318px;"> <img src="https://assets.whichcar.com.au/image/upload/s--Ng54hpmk--/ar_2.304921968787515,c_fill,f_auto,q_auto:good/v1/archive/streetmachine/2015/08/14/42751/WEB-Cars-4-nw.jpg?raw=true" alt="wiring2" style="width:600px;">
+<img src="https://github.com/dcaffer07/Drag-Racer/blob/main/dragrace.jpg?raw=true" alt="wiring2" style="width:200px;"> <img src="https://assets.whichcar.com.au/image/upload/s--Ng54hpmk--/ar_2.304921968787515,c_fill,f_auto,q_auto:good/v1/archive/streetmachine/2015/08/14/42751/WEB-Cars-4-nw.jpg?raw=true" alt="wiring2" style="width:600px;">
 
 #### Reflection of Planning (done post project)
 
