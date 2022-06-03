@@ -65,7 +65,96 @@
 >All in all it was a fun build and I am pretty super happy with the way it came out.
 ___
 ## Wiring Diagram (fritzing (Links to an external site.), tinkercad: circuits, or hand drawings)
+___
 ## Arduino code - Must include comments
+#### Description
+> The goal of our code is to turn our servo when the Ultrasonic sensor detects a hand and stop the servo when the photoresistor detects an increased light level indicating the box has opened. To do this we used various if statements. In order to control at what distance the ultrasonic sensor would tell the servo to turn and at what brightness to turn off, we wrote a statement with the chosen distance or brightness. However, it took several tests with different values to get one that would correctly tell the servo when to start turning and when to stop.  
 
+
+#### Evidence ([CODE on Arduino.cc](https://create.arduino.cc/editor/zsiller38/93f3e2bb-a89a-4506-b8e6-ee0f0d1aa9e8/preview))
+
+```C++
+
+// Dominick Cafferillo & Zachary Siller
+// Drag Racer
+
+int Ain1 = 9;
+int Ain2 = 10;
+int Bin1 = 5;
+int Bin2 = 6;
+int photoPin = 2;
+int buttonPin = 11;
+int state = LOW;
+int buttonState = LOW;
+int var = LOW;
+
+int RUNTIME = 3000; //changes how long motor is on for
+void brake() {
+  digitalWrite(Ain1, LOW);  //turns motors off
+  digitalWrite(Ain2, LOW);
+  digitalWrite(Bin1, LOW);  //turns motors off
+  digitalWrite(Bin2, LOW);
+
+}
+void forward() {
+  analogWrite(Ain1, 255);  //turns motors off
+  digitalWrite(Ain2, HIGH);
+  analogWrite(Bin1, 255);  //turns motors off
+  digitalWrite(Bin2, HIGH);
+}
+
+
+void setup() {
+  pinMode(photoPin, INPUT_PULLUP);  //Pullup for photointerrupter
+  pinMode(buttonPin, INPUT_PULLUP);
+  attachInterrupt(digitalPinToInterrupt(photoPin), blink, CHANGE);  //Interrupt function set to change variable
+  Serial.begin(9600);
+  pinMode(Ain1, OUTPUT);
+  pinMode(Ain2, OUTPUT);
+  pinMode(Bin1, OUTPUT);
+  pinMode(Bin2, OUTPUT);
+
+}
+
+
+void blink() {
+  state = !state; //changes state when photointerupter is changed
+}
+
+void loop() {
+
+  Serial.println(var);
+  if (state == HIGH) {  //When photo changes
+    Serial.println(buttonState);
+    buttonState = digitalRead(buttonPin); //Check if button is also pressed since photo is HIGH
+    if (buttonState == HIGH) {  //If button is also pressed
+      var = HIGH; //Var to signal photo and button both High
+
+    }
+    Serial.println(var);
+  }
+
+  if (state == LOW && var == HIGH) {  //if button state is high and photointerupter state is high, but the photointerupter state is low
+    forward();
+    delay(RUNTIME);   //Go for a certain amount of time
+    brake();
+    var = LOW;  //Reset var to low
+  }
+}
+
+```
+
+
+
+#### Image
+<img src="https://github.com/dcaffer07/JackInTheBox/blob/main/media/horriblewiring%20(2).png?raw=true" alt="wiring"  style="width:500px;">
+
+[Wiring Diagram on TINKERCAD](https://www.tinkercad.com/things/0ICiq3q35Ag-neat-inari/editel?tenant=circuits)
+
+#### Reflection
+> We expected the code to be very challenging because of the many components we had but it was probably the easiest part of the project and we completed it in a couple class periods. However when writing future code here are some lessons ...    
+>- Always double check your pin holes to make sure they are in the correct spot. You can waste a lot of time trying to find an issue with your code when it might be a problem with your wiring.
+>- Be very careful with short circuits. We had a lot of trouble connecting and uploading our code to the arduino because the metal nuts we were using to attach our arduino to the base were creating a short circuit in the arduino. 
+>- Talking through what your code is going to do in english really helps you understand the ordering of your functions and what your code is supposed to accomplish.    
 ## Final Design/Product
 ## Reflection - Include an in-depth discussion of problems, errors, miscalculations, and missteps and how you overcame them
