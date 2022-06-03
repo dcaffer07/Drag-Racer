@@ -23,12 +23,21 @@
 <img src="https://github.com/dcaffer07/Drag-Racer/blob/main/dragrace.jpg?raw=true" alt="wiring2" style="width:195px;"> <img src="https://assets.whichcar.com.au/image/upload/s--Ng54hpmk--/ar_2.304921968787515,c_fill,f_auto,q_auto:good/v1/archive/streetmachine/2015/08/14/42751/WEB-Cars-4-nw.jpg?raw=true" alt="wiring2" style="width:600px;">
 
 #### Reflection of Planning (done post project)
+> All in all i think that our planning went well. In all honestly I wish that we had looked more closely into the logic behind things, ball as I said, the project turnmed out similaraly to as we expected.  Howver with that being said, here are some things that I wish I had known or looked more closely into before the assignment...
+>- We did not really consider the buttons role in the project. Come run time, we had no way tto acces the button while still having the frame on tope of the car.
+>- I would have liked to have left more space in most aspects... this was the case in the wheel situation, as the wheels initially didnt fit so we had to sand the base down.  This was also the case in the gears as they were more taught than anticpated.  
+>- I would have like to more closely pay attention to the timeline aspect of planning.  I feel like we were nonchalaunt in the biggining, and crunching for time toward the end.  But we got it done.
+>- Complete engineering noteboom as you go along.  I have said this before and I say it again, it is a mistake that we have made and I consistently seen my classmates make... do notebook!
+>
+> As stated, our planning was not perfect, but it was sufficient and seemed to work well enough.  
+
 
 ## Materials Used
 
 ## CAD Model - Link and Images
 #### Description
-> In order to fit all of the necessary aspects incorporated with the Box such as the wires, battery mount (power supply), arduino and breadboard, and photoresistor, we needed an area to store all of this.  This is where the base came in, as we decided that with a base we would be able to fit all of the necessary components while still having a singular box, as the jack and the base would attach to each other.  We did this using a friction fit style, creating a 5 side box with an open top, using 3mm acrylic to reserve material and resources.  Next, in order to make the box stay on the box we had to make a shelf, aligned across the inside of each wall that the Jack in the Box could sit on.  Then, we extruded and cut as necessary in order to provide holes for screws, switches, ect.  Finally, we needed a top to this box that was removable for adjustments but sturdy to provide something for the springs to push against; we did this also using acrylic, and we provided open spaces for the photoresistor and breadboard as necessary, while designing it so that it would fit snug across to shelf designed on the walls of the base.
+> While planning, we liked the idea of an open concept car.  This was the case because although we wanted an outer shell in order for the object to look like a car, we liked the idea of being able to see the insides of the device.  This design concists of a base, which holds all of the neccesary electronics along with the gears and shaft mechamism, while having an outer shell frame made of 3D printed material, covered in clear acrilic.  These arcilic "winodwms" allow for the LED and Switch to be attatched in the back with the photointerupter in the front window.  With this desighn, we should be able to combine functionality with our own sence of style, while utilizing the wide array of materials at our disposal.
+
 #### Evidence
 [The Drag Racer in OnShape](https://cvilleschools.onshape.com/documents/0683eb52a22173b51047934c/w/f86c45cb89f616eb262b8ff8/e/189681eae29da1fce519768c)
 #### Image
@@ -37,13 +46,14 @@
 
 #### Reflection
 > All in all the construction and printing itself was relatively easy despite a few hiccups, however after going through it, here are a few takeaways from my experience creating this...
->- When possible, always try to use acrylic and laser cut. We had originally planned to 3D print the entire thing, however that would have cost almost 10 times the amount of, which was especially helpful considering the fact that we had to reprint.
->- Friction fit is an extremely efficient and easy way to attach things such as a box together.
->- Always leave yourself more room than anticipated. This came up as we had originally not left ourselves enough space to make the actual Jack attach to the base, however we were able to fix this through extruding the walls 3mm's up and then reprinting.
->- Mentaly walk through the design and the CONSTRUCTION OF THE OTHER PIECES TO THE BOX! I say this because we had trouble attaching the different aspects because they seemed to fit on OnShape; however when doing it by hand it was much more difficult, so just double check.
->All in all it was a fun build and I am super happy with the way it came out.
+>- Prevent the use of unnesary material... try to be mindfull of what is being used, especially when working with 3D material.  We were initially planning on a completely 3D printed object, howver that would not have been costly and efficent.
+>- But batterie packs facing outside the object for easy access to batterry switches.
+>- Always leave yourself more room than anticipated. The wheels fit in the CAD design but not in real life which was frustrating.
+>- Attatch accordingly and in order and make sure that you  have a full understanding of what needs to happen... we did not largely consider the button which is very important.
+>All in all it was a fun build and I am pretty super happy with the way it came out.
 ___
 ## Wiring Diagram (fritzing (Links to an external site.), tinkercad: circuits, or hand drawings)
 ## Arduino code - Must include comments
+
 ## Final Design/Product
 ## Reflection - Include an in-depth discussion of problems, errors, miscalculations, and missteps and how you overcame them
