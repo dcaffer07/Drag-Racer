@@ -39,7 +39,7 @@
 > While planning, we liked the idea of an open concept car.  This was the case because although we wanted an outer shell in order for the object to look like a car, we liked the idea of being able to see the insides of the device.  This design concists of a base, which holds all of the neccesary electronics along with the gears and shaft mechamism, while having an outer shell frame made of 3D printed material, covered in clear acrilic.  These arcilic "winodwms" allow for the LED and Switch to be attatched in the back with the photointerupter in the front window.  With this desighn, we should be able to combine functionality with our own sence of style, while utilizing the wide array of materials at our disposal.
 
 #### Evidence
-[The Drag Racer in OnShape](https://cvilleschools.onshape.com/documents/0683eb52a22173b51047934c/w/f86c45cb89f616eb262b8ff8/e/189681eae29da1fce519768c)
+[The Drag Racer in OnShape](https://cvilleschools.onshape.com/documents/e8806f96e774d3def5e33240/w/76c1360de77130e99abc977a/e/2fdb9a68a300250b81b92fe9)
 #### Image
 <img src="https://github.com/dcaffer07/Drag-Racer/blob/main/Full%20car.png?raw=true" alt="wiring2" style="width:270px;"><img src="https://github.com/dcaffer07/Drag-Racer/blob/main/gear.png?raw=true" alt="wiring2" style="width:150px;"><img src="https://github.com/dcaffer07/Drag-Racer/blob/main/top%20view.png?raw=true" alt="wiring2" style="width:230px;"><img src="https://github.com/dcaffer07/Drag-Racer/blob/main/Gear%20Shaft.png?raw=true" alt="wiring2" style="width:230px;">
 
