@@ -32,7 +32,7 @@
 #### Evidence
 [The Drag Racer in OnShape](https://cvilleschools.onshape.com/documents/0683eb52a22173b51047934c/w/f86c45cb89f616eb262b8ff8/e/189681eae29da1fce519768c)
 #### Image
-<img src="https://github.com/dcaffer07/Drag-Racer/blob/main/Full%20car.png?raw=true" alt="wiring2" style="width:280px;"><img src="https://github.com/dcaffer07/Drag-Racer/blob/main/gear.png?raw=true" alt="wiring2" style="width:160px;"><img src="https://github.com/dcaffer07/Drag-Racer/blob/main/top%20view.png?raw=true" alt="wiring2" style="width:240px;"><img src="https://github.com/dcaffer07/Drag-Racer/blob/main/Gear%20Shaft.png?raw=true" alt="wiring2" style="width:240px;">
+<img src="https://github.com/dcaffer07/Drag-Racer/blob/main/Full%20car.png?raw=true" alt="wiring2" style="width:270px;"><img src="https://github.com/dcaffer07/Drag-Racer/blob/main/gear.png?raw=true" alt="wiring2" style="width:150px;"><img src="https://github.com/dcaffer07/Drag-Racer/blob/main/top%20view.png?raw=true" alt="wiring2" style="width:230px;"><img src="https://github.com/dcaffer07/Drag-Racer/blob/main/Gear%20Shaft.png?raw=true" alt="wiring2" style="width:230px;">
 
 
 #### Reflection
