@@ -26,6 +26,7 @@
 
 ## Materials Used
 ## CAD Model - Link and Images
+
 ## Wiring Diagram (fritzing (Links to an external site.), tinkercad: circuits, or hand drawings)
 ## Arduino code - Must include comments
 ## Final Design/Product
