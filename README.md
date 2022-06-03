@@ -64,7 +64,7 @@
 >- Attatch accordingly and in order and make sure that you  have a full understanding of what needs to happen... we did not largely consider the button which is very important.
 >All in all it was a fun build and I am pretty super happy with the way it came out.
 ___
-## Wiring Diagram (fritzing (Links to an external site.), tinkercad: circuits, or hand drawings)
+## Wiring Diagram
 ___
 ## Arduino code - Must include comments
 #### Description
