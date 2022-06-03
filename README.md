@@ -33,6 +33,18 @@
 
 
 ## Materials Used
+>- Acrylic (base of box and windows)
+>- 3d printer (gears, gear shaft, outer frame, moter holders)
+>- Standard button (for initialization)
+>- Wires 
+>- T-Slot Photointerupter (To send racer)
+>- H-Bridge (signals servo to stop)
+>- TT Motor X 2
+>- Panel Mount LED
+>- Panel Mount Switch
+>- Arduino...  prototyping sheild... mini bread board
+>- Battery pack (6 x AA)
+>- Screws/nuts/washers... assorted
 
 ## CAD Model - Link and Images
 #### Description
