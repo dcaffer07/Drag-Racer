@@ -66,7 +66,7 @@
 ___
 ## Wiring Diagram
 ___
-## Arduino code - Must include comments
+## Arduino code
 #### Description
 > The goal of our code is to turn our servo when the Ultrasonic sensor detects a hand and stop the servo when the photoresistor detects an increased light level indicating the box has opened. To do this we used various if statements. In order to control at what distance the ultrasonic sensor would tell the servo to turn and at what brightness to turn off, we wrote a statement with the chosen distance or brightness. However, it took several tests with different values to get one that would correctly tell the servo when to start turning and when to stop.  
 
@@ -97,9 +97,9 @@ void brake() {
 
 }
 void forward() {
-  analogWrite(Ain1, 255);  //turns motors off
+  analogWrite(Ain1, 255);  //turns motors on
   digitalWrite(Ain2, HIGH);
-  analogWrite(Bin1, 255);  //turns motors off
+  analogWrite(Bin1, 255);  //turns motors on
   digitalWrite(Bin2, HIGH);
 }
 
@@ -107,7 +107,7 @@ void forward() {
 void setup() {
   pinMode(photoPin, INPUT_PULLUP);  //Pullup for photointerrupter
   pinMode(buttonPin, INPUT_PULLUP);
-  attachInterrupt(digitalPinToInterrupt(photoPin), blink, CHANGE);  //Interrupt function set to change variable
+  attachInterrupt(digitalPinToInterrupt(photoPin), blink, CHANGE);  //Interrupt function to trigger photointerupter without delay, so car starts as soon as possible
   Serial.begin(9600);
   pinMode(Ain1, OUTPUT);
   pinMode(Ain2, OUTPUT);
@@ -128,16 +128,16 @@ void loop() {
     Serial.println(buttonState);
     buttonState = digitalRead(buttonPin); //Check if button is also pressed since photo is HIGH
     if (buttonState == HIGH) {  //If button is also pressed
-      var = HIGH; //Var to signal photo and button both High
+      var = HIGH; //Changes Var to signal photo and button both High
 
     }
     Serial.println(var);
   }
 
-  if (state == LOW && var == HIGH) {  //if button state is high and photointerupter state is high, but the photointerupter state is low
-    forward();
+  if (state == LOW && var == HIGH) {  //if button state is high and photointerupter state is high, but the photointerupter state changes back to low
+    forward(); start motors
     delay(RUNTIME);   //Go for a certain amount of time
-    brake();
+    brake(); stop motors
     var = LOW;  //Reset var to low
   }
 }
@@ -158,3 +158,8 @@ void loop() {
 >- Talking through what your code is going to do in english really helps you understand the ordering of your functions and what your code is supposed to accomplish.    
 ## Final Design/Product
 ## Reflection - Include an in-depth discussion of problems, errors, miscalculations, and missteps and how you overcame them
+> The prosses of making the drag race was extremly frustraiting. We ran into several issues primarily with our code that took several class periods to fix.
+>- When wiring up the arduino some of our wires were long so we created sevearl short circuts that prevented the arduino fuctioning as intended. However this issue was fixed by replacing the more problamtic wires and double checking how our arduino was mounted to our base. 
+>- A second issue we had was with our rear axel we did not make it long enough and as a result the wheels would scrape along the sides of our base. This was fixed by reducing the width of the base where the rear axel was located, but doing this meant we could no longer attach our side panels beacuse they would interfere with our wheels. This was disapointing but the lesson learned was to make a larger axel so we would have more wiggle room when mounting our wheels. 
+>- Time managment was the final issue with our project. We could have been more focused during some class periods so we would not have to stress over completing a large part of the project in the last few days. 
+> Overall I really like the design of our car, and it looks really cool. The build experience and the coding however was not fun due to the issues mentioned above. The project was still fun but I enjoyed the experience of the Jack in the box more.
