@@ -157,6 +157,13 @@ void loop() {
 >- Be very careful with short circuits. We had a lot of trouble connecting and uploading our code to the arduino because the metal nuts we were using to attach our arduino to the base were creating a short circuit in the arduino. 
 >- Talking through what your code is going to do in english really helps you understand the ordering of your functions and what your code is supposed to accomplish.    
 ## Final Design/Product
+#### Reactions:
+> Zac
+> Dom
+> - All in all, I am happy with how our prject turned out. It was deffinetly challenging, howver we were able to overcome some tough mishaps and calculations, which I could not be more happy with.  In all honesty I think that we amy have been slightly rushed, howver I do not beleive that we were the only ones and we were still able to make them most of our design. This project has challenged me as a whole, and I look forwad to more like it in the future.
+
+#### Final Project Images
+
 ## Reflection - Include an in-depth discussion of problems, errors, miscalculations, and missteps and how you overcame them
 > The prosses of making the drag race was extremly frustraiting. We ran into several issues primarily with our code that took several class periods to fix.
 >- When wiring up the arduino some of our wires were long so we created sevearl short circuts that prevented the arduino fuctioning as intended. However this issue was fixed by replacing the more problamtic wires and double checking how our arduino was mounted to our base. 
