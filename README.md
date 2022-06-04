@@ -164,7 +164,7 @@ void loop() {
 > - All in all, I am happy with how our prject turned out. It was deffinetly challenging, howver we were able to overcome some tough mishaps and calculations, which I could not be more happy with.  In all honesty I think that we amy have been slightly rushed, howver I do not beleive that we were the only ones and we were still able to make them most of our design. This project has challenged me as a whole, and I look forwad to more like it in the future.
 
 #### Final Project Images
-<img src="https://github.com/dcaffer07/Drag-Racer/blob/main/back%20final.jpg?raw=true" alt="wiring2" style="width:215px;"> <img src="https://github.com/dcaffer07/Drag-Racer/blob/main/top%20final.jpg?raw=true" alt="wiring2" style="width:300px;"> <img src="https://github.com/dcaffer07/Drag-Racer/blob/main/side%20final.jpg?raw=true" alt="wiring2" style="width:333px;">
+<img src="https://github.com/dcaffer07/Drag-Racer/blob/main/back%20final.jpg?raw=true" alt="wiring2" style="width:215px;"> <img src="https://github.com/dcaffer07/Drag-Racer/blob/main/top%20final.jpg?raw=true" alt="wiring2" style="width:300px;"> <img src="https://github.com/dcaffer07/Drag-Racer/blob/main/side%20final.jpg?raw=true" alt="wiring2" style="width:333px;"><img src="https://github.com/dcaffer07/Drag-Racer/blob/main/DR%20Vid.gif?raw=true" alt="wiring2" style="width:333px;">
 
 
 ## Reflection - Include an in-depth discussion of problems, errors, miscalculations, and missteps and how you overcame them
