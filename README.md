@@ -147,9 +147,9 @@ void loop() {
 
 
 #### Image
-<img src="https://github.com/dcaffer07/JackInTheBox/blob/main/media/horriblewiring%20(2).png?raw=true" alt="wiring"  style="width:500px;">
+<img src="Dragracerwiring.png" alt="Dragracerwiring"  style="width:500px;">
 
-[Wiring Diagram on TINKERCAD](https://www.tinkercad.com/things/0ICiq3q35Ag-neat-inari/editel?tenant=circuits)
+[Wiring Diagram on TINKERCAD](https://www.tinkercad.com/things/dmOn5LpBOqS-super-migelo/editel?tenant=circuits)
 
 #### Reflection
 > We expected the code to be very challenging because of the many components we had but it was probably the easiest part of the project and we completed it in a couple class periods. However when writing future code here are some lessons ...    
