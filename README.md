@@ -219,4 +219,4 @@ ______
 >- Time management was the final issue with our project. We could have been more focused during some class periods so we would not have to stress over completing a large part of the project in the last few days. 
 > Overall I really like the design of our car, and it looks really cool. The build experience and the coding however was not fun due to the issues mentioned above. The project was still fun but I enjoyed the experience of the Jack in the box more.
 
-[Back to the Top](
+[Back to the Top](https://github.com/dcaffer07/Drag-Racer/blob/main/README.md#drag-racer---engineering-2-dom--zac)
