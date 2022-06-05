@@ -8,7 +8,7 @@
 * [Wiring Diagram](https://github.com/dcaffer07/Drag-Racer/blob/main/README.md#wiring-diagram) 
 * [Arduino Code](https://github.com/dcaffer07/Drag-Racer/blob/main/README.md#arduino-code)
 * [Final Design/Product](https://github.com/dcaffer07/Drag-Racer/blob/main/README.md#final-designproduct)
-* [Reflection](https://github.com/dcaffer07/Drag-Racer/blob/main/README.md#reflection---include-an-in-depth-discussion-of-problems-errors-miscalculations-and-missteps-and-how-you-overcame-them)
+* [Reflection](https://github.com/dcaffer07/Drag-Racer/blob/main/README.md#reflection-3)
 
 
 ## Planning - detailed description with images
