@@ -65,6 +65,20 @@
 >All in all it was a fun build and I am pretty super happy with the way it came out.
 ___
 ## Wiring Diagram
+#### Descriptions
+- With all of the differnt aspects, we expected for this wiring o be diffuclt... and it lived up to its expectations.  The goal is to innitiate the program by pressing a standard button... which than was triggered by a photointerupter, causing the car to move forward 10 feet to the finish line where it would have to stop within a foot behind the finish line. In addition to these aspects, an LED and Switch were required to turn on the devise which was powered by 6 AA bateries stationed on a standard battery pack.  The cooperation of these different faccets was dependent on the use of an H-Bridge, as the functionality of all of these things were for the purpose of the TT Motors which turned the gears.  We were able to do this with all of the equipment present in the ab, and after some trial and error, it wuld finally wor in sinc with the code.
+
+#### Image/ Diagram
+<img src="Dragracerwiring.png" alt="Dragracerwiring"  style="width:500px;">
+
+#### Reflection
+> Despite some troubles involving our H-Bridge (not functionisng correctly which caused for the device not to work), and some problems with exposed wires, we were abe to dilligently and effectively establish wiring that worked effectively. However like anything else, here are some takaways from this aspect of the projects as well as things to keep in mind in the future...
+> - When cutting wires, make sure that you do not leave toomuch exposed wire on the ends.  This can cause confusing shorts that vary depending on movement.
+> - When struggling to make the code function withoiut reason as to why, be sure to check the larger components for functinality sich as the H-Bridge which happened to be the toube in this particular case.
+> - When possible, use resistors.  It will cause the elimination of random influxes of energy that can cause things to function happhazardly.
+> - When struggling to move forward with the wiring, try to take things step by step, and focus on more individualized aspects rather than the entire object.
+
+>Despite having not known these things before hand, we were able to make our racer wor effectively with the help of Mr. Garcia and Mr. H.
 ___
 ## Arduino code
 #### Description
@@ -145,10 +159,6 @@ void loop() {
 ```
 
 
-
-#### Image
-<img src="Dragracerwiring.png" alt="Dragracerwiring"  style="width:500px;">
-
 [Wiring Diagram on TINKERCAD](https://www.tinkercad.com/things/dmOn5LpBOqS-super-migelo/editel?tenant=circuits)
 
 #### Reflection
@@ -159,12 +169,12 @@ void loop() {
 ## Final Design/Product
 #### Reactions:
 > Zac
->
+> - I like project.
 > Dom
 > - All in all, I am happy with how our prject turned out. It was deffinetly challenging, howver we were able to overcome some tough mishaps and calculations, which I could not be more happy with.  In all honesty I think that we amy have been slightly rushed, howver I do not beleive that we were the only ones and we were still able to make them most of our design. This project has challenged me as a whole, and I look forwad to more like it in the future.
 
 #### Final Project Images
-<img src="https://github.com/dcaffer07/Drag-Racer/blob/main/back%20final.jpg?raw=true" alt="wiring2" style="width:215px;"> <img src="https://github.com/dcaffer07/Drag-Racer/blob/main/top%20final.jpg?raw=true" alt="wiring2" style="width:300px;"> <img src="https://github.com/dcaffer07/Drag-Racer/blob/main/side%20final.jpg?raw=true" alt="wiring2" style="width:333px;"><img src="https://github.com/dcaffer07/Drag-Racer/blob/main/DR%20Vid.gif?raw=true" alt="wiring2" style="width:150px;">
+<img src="https://github.com/dcaffer07/Drag-Racer/blob/main/back%20final.jpg?raw=true" alt="wiring2" style="width:215px;"> <img src="https://github.com/dcaffer07/Drag-Racer/blob/main/top%20final.jpg?raw=true" alt="wiring2" style="width:300px;"> <img src="https://github.com/dcaffer07/Drag-Racer/blob/main/side%20final.jpg?raw=true" alt="wiring2" style="width:333px;"><img src="https://github.com/dcaffer07/Drag-Racer/blob/main/DR%20Vid.gif?raw=true" alt="wiring2" style="width:100px;">
 
 
 ## Reflection - Include an in-depth discussion of problems, errors, miscalculations, and missteps and how you overcame them
