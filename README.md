@@ -181,6 +181,38 @@ ____
 <img src="https://github.com/dcaffer07/Drag-Racer/blob/main/back%20final.jpg?raw=true" alt="wiring2" style="width:215px;"> <img src="https://github.com/dcaffer07/Drag-Racer/blob/main/top%20final.jpg?raw=true" alt="wiring2" style="width:300px;"> <img src="https://github.com/dcaffer07/Drag-Racer/blob/main/side%20final.jpg?raw=true" alt="wiring2" style="width:333px;"><img src="https://github.com/dcaffer07/Drag-Racer/blob/main/DR%20Vid.gif?raw=true" alt="wiring2" style="width:100px;">
 ______
 ## Reflection
+#### Problems, Miscalculations, and Corrections
+##### Design/ Initial Stage Issues
+###### *Time Managemnt and Milstones*
++ Problem: Initially it was hard to open the box for adjustments while still preventing too much damage. But we had to open it to make the build work, and as a result we had an extremely uneven bottom of the box while cutting it.
+- Solution: To fix this we had to use a combination of filing down the edges along with using the press/clamp to compress it to a point that it would sit flat.
+###### *Minimizing Material*
++ Problem: We were originally struggling to find a way to make the gear turn while still fitting everything in the box.
++ Solution: Zac came up with a way to feed the shaft through the gears so that when the servo turned the gears would and therefore music would play.
+##### CAD Issues
+###### *3D Print vs Laser Cut*
++ Problem: We had originally planned to use 3D printed material to construct the box, however this would leave no room for error as this print would cost over 60 dollars.
++ Solution: We used acrylic material and laser cutting technology to construct the box in a more efficient and time sensitive way, which would prove essential when having to recut.
+###### *Walls Height*
++ Problem: Initially the walls for the box to sit on which were attached to the base were too low, which prevented the box from staying connected and in place. 
++ Solution: WE had to reprint the walls,keeping the same base but raising the edges 3 mm.
+##### Code/Wiring Issues
+###### *LED & Switch Attachment* 
++ Problem: After getting the product to seemingly work, we noticed that the battery was dying rather quickly.  This was the case due to the fact that as we integrated the LED and Switch we had attached the switch to the LED only, making it so that the batteries were supplying juice to the servo and photresiter at all times, however the LED was only on command.
++ Solution:  With a small bit of rewiring and code adjustment, we were able to easily fix this problem, preventing the unnecessary use of energy and resources (the battery).
+###### *Photoresistor Light Value*
++ Problem: THe calibrations on the photrestore were off, making both too sensitive or not sensitive enough at any given time.
++ Solution: We solved this using trial and error, testing it until we found the perfect calibration that allowed for the function that we were going for.
+##### Build Issues
+###### *Rechargeable Battery*
++ Problem: We wanted to install a rechargeable battery in our box but we did not have a hole in our acrylic to insert the charger. 
++ Solution: We lowered the base of the laser cutter so we could fit the box in on it's side. We then cut a small rectangle on the side of the box.
+###### *Dealing with a BEAT UP Box*
++ Problem: Although it may ot seem this way at a first glance, our box was bent significantly, leading to an uneven bottom that did not allow for it to sit in its mold (base).
++ Solution: Using a mixture of sanding as well as hammering and compressing, we were able to return the box to its original state (or close enough), so that it fit on the box snug and as intended.
+
+
+#### Overall Reflection
 > The prosses of making the drag race was extremly frustraiting. We ran into several issues primarily with our code that took several class periods to fix.
 >- When wiring up the arduino some of our wires were long so we created sevearl short circuts that prevented the arduino fuctioning as intended. However this issue was fixed by replacing the more problamtic wires and double checking how our arduino was mounted to our base. 
 >- A second issue we had was with our rear axel we did not make it long enough and as a result the wheels would scrape along the sides of our base. This was fixed by reducing the width of the base where the rear axel was located, but doing this meant we could no longer attach our side panels beacuse they would interfere with our wheels. This was disapointing but the lesson learned was to make a larger axel so we would have more wiggle room when mounting our wheels. 
