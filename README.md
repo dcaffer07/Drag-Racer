@@ -16,6 +16,8 @@
 > To work diligently in order to create a product that improves and expands our overall knowledge of how basic engineering operates.  We are expected to work professionally, using our time and resources wisely.  We are expected to work with our partners efficiently to create an object that operates under the parameters provided. With this we will create a device that incorporates all of the aspects of engineering we have learned about to scare and startle those who aren’t scared and startled enough in an effort to make the world a less scared-and-startle-free space.
 
 #### Description (establishing the foundation)
+> Design, Build, and Program a Drag Race Car to safely and quikly travel a length of 10ft and across the finish line in the fastest time.  Have a photointerrupter putt at the most front portion of your car. Allow adjustment of your photointerrupter to have a height between 80mm and 100mm. Pushbutton must be included. Work in a partnerhsip and get to work!
+
 #### Planning Document
 [Here is the planning doc that was created pre-creation](https://docs.google.com/document/d/14ydlslu0jilWMhaa84WuWhr467ZRmgDgo2GTIVmntT8/edit#heading=h.ukbi0a75zb46)
 
@@ -31,7 +33,7 @@
 >
 > As stated, our planning was not perfect, but it was sufficient and seemed to work well enough.  
 
-
+____
 ## Materials Used
 >- Acrylic (base of box and windows)
 >- 3d printer (gears, gear shaft, outer frame, moter holders)
@@ -45,7 +47,7 @@
 >- Arduino...  prototyping sheild... mini bread board
 >- Battery pack (6 x AA)
 >- Screws/nuts/washers... assorted
-
+_____
 ## CAD Model - Link and Images
 #### Description
 > While planning, we liked the idea of an open concept car.  This was the case because although we wanted an outer shell in order for the object to look like a car, we liked the idea of being able to see the insides of the device.  This design concists of a base, which holds all of the neccesary electronics along with the gears and shaft mechamism, while having an outer shell frame made of 3D printed material, covered in clear acrilic.  These arcilic "winodwms" allow for the LED and Switch to be attatched in the back with the photointerupter in the front window.  With this desighn, we should be able to combine functionality with our own sence of style, while utilizing the wide array of materials at our disposal.
@@ -66,9 +68,9 @@
 ___
 ## Wiring Diagram
 #### Descriptions
-- With all of the differnt aspects, we expected for this wiring o be diffuclt... and it lived up to its expectations.  The goal is to innitiate the program by pressing a standard button... which than was triggered by a photointerupter, causing the car to move forward 10 feet to the finish line where it would have to stop within a foot behind the finish line. In addition to these aspects, an LED and Switch were required to turn on the devise which was powered by 6 AA bateries stationed on a standard battery pack.  The cooperation of these different faccets was dependent on the use of an H-Bridge, as the functionality of all of these things were for the purpose of the TT Motors which turned the gears.  We were able to do this with all of the equipment present in the ab, and after some trial and error, it wuld finally wor in sinc with the code.
+> With all of the differnt aspects, we expected for this wiring o be diffuclt... and it lived up to its expectations.  The goal is to innitiate the program by pressing a standard button... which than was triggered by a photointerupter, causing the car to move forward 10 feet to the finish line where it would have to stop within a foot behind the finish line. In addition to these aspects, an LED and Switch were required to turn on the devise which was powered by 6 AA bateries stationed on a standard battery pack.  The cooperation of these different faccets was dependent on the use of an H-Bridge, as the functionality of all of these things were for the purpose of the TT Motors which turned the gears.  We were able to do this with all of the equipment present in the ab, and after some trial and error, it wuld finally wor in sinc with the code.
 
-#### Image/ Diagram
+#### Image/ Diagram ([Wiring Diagram in TinkerCad](https://github.com/dcaffer07/Drag-Racer/blob/main/README.md))
 <img src="Dragracerwiring.png" alt="Dragracerwiring"  style="width:500px;">
 
 #### Reflection
@@ -77,12 +79,12 @@ ___
 > - When struggling to make the code function withoiut reason as to why, be sure to check the larger components for functinality sich as the H-Bridge which happened to be the toube in this particular case.
 > - When possible, use resistors.  It will cause the elimination of random influxes of energy that can cause things to function happhazardly.
 > - When struggling to move forward with the wiring, try to take things step by step, and focus on more individualized aspects rather than the entire object.
-
+>
 >Despite having not known these things before hand, we were able to make our racer wor effectively with the help of Mr. Garcia and Mr. H.
 ___
 ## Arduino code
 #### Description
-> The goal of our code is to turn our servo when the Ultrasonic sensor detects a hand and stop the servo when the photoresistor detects an increased light level indicating the box has opened. To do this we used various if statements. In order to control at what distance the ultrasonic sensor would tell the servo to turn and at what brightness to turn off, we wrote a statement with the chosen distance or brightness. However, it took several tests with different values to get one that would correctly tell the servo when to start turning and when to stop.  
+> The goal of this code was to use photointeruots and a oushbutton to innitialize the turing of TT Motors 10 feet to the finish line, where the dice would than stop within a foot of the finish line. We would do this using an H-Bridge, which meant the integratiom of the Ain1/2, Bin1/2, and othe rmore standard pins with a value to give them a resting stae which could be built upon or varies later in the program.  From there we established the functions forward and break which would be dependent on the state of the photointeruoter and buttons.  These functions would create the needed combinations for TT motors to operate, causing the device to either move or stop.  This code was diffuclt, however it proved to work effectively and in the manner than we had hoped.  
 
 
 #### Evidence ([CODE on Arduino.cc](https://create.arduino.cc/editor/zsiller38/93f3e2bb-a89a-4506-b8e6-ee0f0d1aa9e8/preview))
@@ -159,13 +161,15 @@ void loop() {
 ```
 
 
-[Wiring Diagram on TINKERCAD](https://www.tinkercad.com/things/dmOn5LpBOqS-super-migelo/editel?tenant=circuits)
-
 #### Reflection
-> We expected the code to be very challenging because of the many components we had but it was probably the easiest part of the project and we completed it in a couple class periods. However when writing future code here are some lessons ...    
+> We expected the code to be very challenging because of the many components we had but it was acheivable and it functions.  It required the use of all prior coding knowledge, howver as always, some takaways...    
 >- Always double check your pin holes to make sure they are in the correct spot. You can waste a lot of time trying to find an issue with your code when it might be a problem with your wiring.
->- Be very careful with short circuits. We had a lot of trouble connecting and uploading our code to the arduino because the metal nuts we were using to attach our arduino to the base were creating a short circuit in the arduino. 
->- Talking through what your code is going to do in english really helps you understand the ordering of your functions and what your code is supposed to accomplish.    
+>- Check the neccesary states of the code to make the motors function in thr propor manner. 
+>- Think about code ratinally and verbally before creating it to understand the different aspects.
+>- While looking at others code can be helpfull, it wasn't in this case, by doing this im=ndependently it was much more effective. 
+>
+> As stated, the code was challneging, howver it has made us better engineers as a whole.
+____
 ## Final Design/Product
 #### Reactions:
 > Zac
@@ -175,9 +179,8 @@ void loop() {
 
 #### Final Project Images
 <img src="https://github.com/dcaffer07/Drag-Racer/blob/main/back%20final.jpg?raw=true" alt="wiring2" style="width:215px;"> <img src="https://github.com/dcaffer07/Drag-Racer/blob/main/top%20final.jpg?raw=true" alt="wiring2" style="width:300px;"> <img src="https://github.com/dcaffer07/Drag-Racer/blob/main/side%20final.jpg?raw=true" alt="wiring2" style="width:333px;"><img src="https://github.com/dcaffer07/Drag-Racer/blob/main/DR%20Vid.gif?raw=true" alt="wiring2" style="width:100px;">
-
-
-## Reflection - Include an in-depth discussion of problems, errors, miscalculations, and missteps and how you overcame them
+______
+## Reflection
 > The prosses of making the drag race was extremly frustraiting. We ran into several issues primarily with our code that took several class periods to fix.
 >- When wiring up the arduino some of our wires were long so we created sevearl short circuts that prevented the arduino fuctioning as intended. However this issue was fixed by replacing the more problamtic wires and double checking how our arduino was mounted to our base. 
 >- A second issue we had was with our rear axel we did not make it long enough and as a result the wheels would scrape along the sides of our base. This was fixed by reducing the width of the base where the rear axel was located, but doing this meant we could no longer attach our side panels beacuse they would interfere with our wheels. This was disapointing but the lesson learned was to make a larger axel so we would have more wiggle room when mounting our wheels. 
